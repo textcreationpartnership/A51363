@@ -1,0 +1,895 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An elegy on the death of the honourable Mr. Robert Boyle</title>
+            <author>Morgan, Matthew, 1652-1703.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 36 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A51363</idno>
+            <idno type="STC">Wing M2732</idno>
+            <idno type="STC">ESTC R41363</idno>
+            <idno type="EEBO-CITATION">31355186</idno>
+            <idno type="OCLC">ocm 31355186</idno>
+            <idno type="VID">110339</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A51363)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 110339)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1747:30)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An elegy on the death of the honourable Mr. Robert Boyle</title>
+                  <author>Morgan, Matthew, 1652-1703.</author>
+               </titleStmt>
+               <extent>[2], 17 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Leonard Lichfield,</publisher>
+                  <pubPlace>Oxford :</pubPlace>
+                  <date>M DC XCII [1692]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Attributed to Morgan by Wing (2nd ed.); "Dr Matth. Morgan" has been added to t.p. in ms.</note>
+                  <note>Imperfect: print show-through.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Boyle, Robert, 1627-1691.</term>
+               <term>Elegiac poetry, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-07</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-07</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:110339:1" rendition="simple:additions"/>
+            <p>AN ELEGY ON THE DEATH Of the HONOURABLE Mr. ROBERT BOYLE.</p>
+            <q>
+               <l>Eheu! fugaces, Poſthume, Poſthume,</l>
+               <l>Labuntur anni: nec pietas moram</l>
+               <l>Rugis &amp; inſtanti ſenectae</l>
+               <l>Afferet, indomitaeque Morti.</l>
+               <l>Ergo <hi>Quintilium</hi> perpetuus ſopor</l>
+               <l>Urget? cui Pudor, &amp; Juſtitiae ſoror</l>
+               <l>Incorrupta Fides, nudaque Veritas,</l>
+               <l>Quando ullum invenient parem?</l>
+               <l>Multis ille bonis flebilis occidit:</l>
+               <l>Nulli flebilior quam mihi.
+<bibl>Horat. Od.</bibl>
+               </l>
+            </q>
+            <p>
+               <hi>OXFORD,</hi> Printed by LEONARD LICHFIELD, MDCXCII.</p>
+         </div>
+      </front>
+      <body>
+         <div type="elegy">
+            <pb facs="tcp:110339:2"/>
+            <pb n="1" facs="tcp:110339:2"/>
+            <head>TO My Much Eſteem'd Friend, T.N. <abbr>Eſq</abbr>
+            </head>
+            <lg>
+               <l>YOU have exacted the ſevereſt Teſt</l>
+               <l>In ſending me ſo mournful a Requeſt,</l>
+               <l>That I ſhould on this doleful Matter write,</l>
+               <l>And like his <hi>Noctiluca</hi> ſhine by Night:</l>
+               <l>If copious Grief like Rage might make a Verſe,</l>
+               <l>I can lament, but can't adorn his Herſe.</l>
+               <l>
+                  <hi>Parnaſſus</hi> now nothing but <hi>Cypreſs</hi> wears,</l>
+               <l>If <hi>Aganippe</hi> flowes it muſt with Tears:</l>
+               <l>My trembling Muſe cannot the Task perform,</l>
+               <l>But droops like <hi>Turtles</hi> batter'd by a Storm,</l>
+               <l>Who are ſurpris'd before they ſhelter get,</l>
+               <l>She cannot fly when both her Wings are wet:</l>
+               <l>My Sorrow now above its ſource doth riſe,</l>
+               <l>Before I write I muſt diſcharge my Eyes.</l>
+               <l>This faint Attempt on others may prevail,</l>
+               <l>In Proſe to finiſh where my Verſe muſt fail;</l>
+               <l>The beſt Hiſtorian of our <hi>Britiſh</hi> Iſle</l>
+               <l>Might here employ the Beauties of his Stile;</l>
+               <l>Now an Illuſtrious Subject he hath got,</l>
+               <l>Greater than all the painful <hi>Plutarch</hi> wrote:</l>
+               <l>He rais'd our Reformation from the Duſt,</l>
+               <l>Clear'd it from Calumnies of Wrath and Luſt;</l>
+               <l>He ſhew'd that purer Motives did provoke</l>
+               <l>Our Anceſtors to break the <hi>Romiſh</hi> Yoke,</l>
+               <l>And Records juſtify'd each Word he ſpoke:</l>
+               <l>Then he did skilfully his Portraite draw,</l>
+               <l>Who living was the Oracle of Law;</l>
+               <pb n="2" facs="tcp:110339:3"/>
+               <l>With ſtrict Integrity did himſelf demean,</l>
+               <l>His Heart was honeſt, and his Hands were clean:</l>
+               <l>He with a righteous poiſe did hold the Scales,</l>
+               <l>And his Name anſwer'd to the Balance, <hi>Hales;</hi>
+               </l>
+               <l>That fruitful Monoſyllable implies</l>
+               <l>All that is Learned, or Devout, or Wiſe:</l>
+               <l>Until a fuller Payment in doth come</l>
+               <l>Accept this ſmall and tributary Summ:</l>
+               <l>Sure there's a ſtrong Contagion in the Air,</l>
+               <l>'Tis not an Age our Loſſes can repair.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Syd nam</hi> did firſt unto the Stroke ſubmit</l>
+               <l>With all his Judgment, Elegance and Wit;</l>
+               <l>Nothing he knew did peeviſhly with-hold,</l>
+               <l>But with ingenuous Honeſty he told;</l>
+               <l>He had a <hi>Roman</hi> Gallantry of Mind,</l>
+               <l>He was a Benefactor to Mankind:</l>
+               <l>Each peccant Humor freely did chaſtiſe,</l>
+               <l>And without Fees doth all the World adviſe:</l>
+               <l>He reſcu'd us from that familiar Curſe,</l>
+               <l>To be with Cordials ſtifl'd by a Nurſe;</l>
+               <l>Their choaking Houſhold-methods did defeat,</l>
+               <l>Oppos'd his Cold to their exceſs of Heat;</l>
+               <l>And thoſe his temperate <hi>Regimen</hi> did ſave,</l>
+               <l>Who otherwiſe were deſtin'd to the Grave:</l>
+               <l>This nauſeous Foe both Sexes doth infeſt,</l>
+               <l>But of fair Lineaments a dreadful peſt;</l>
+               <l>Unto the Ladies chiefly is unkind,</l>
+               <l>And barbarous marks of Triumph leaves behind.</l>
+            </lg>
+            <lg>
+               <l>Then <hi>Lower</hi> Dy'd who had ſo many heal'd,</l>
+               <l>The Muſcle he ſo well deſcrib'd did yield;</l>
+               <l>As Blood in it's ſwift ſallies from the Heart</l>
+               <l>Doth convey Nouriſhment to every part,</l>
+               <l>So thoſe two Qualities in his Stile you meet,</l>
+               <l>It is as Florid and it flowes as Sweet;</l>
+               <l>But now the Fortreſs doth demoliſh'd ly,</l>
+               <l>And the wet Ditch about it is drawn dry.</l>
+            </lg>
+            <lg>
+               <l>And now Great BOYLE is raviſht from our ſide,</l>
+               <l>A purer Sacrifice ne're the Altar dy'd;</l>
+               <l>All proſperous Omens in his Life did ſhine,</l>
+               <l>But from his Entrails we can none divine:</l>
+               <pb n="3" facs="tcp:110339:3"/>
+               <l>Let Death her trifling Queſtions now diſcuſs,</l>
+               <l>And cut down all the Shrubs in <hi>Libanus;</hi>
+               </l>
+               <l>Our ſtock of Funeral Sorrow now is ſpent,</l>
+               <l>We ha'nt one Drop their ruine to lament;</l>
+               <l>A Tree of the firſt Eminence he ſtood,</l>
+               <l>He ſhaded and protected all the Wood:</l>
+               <l>Here perſecuted Birds did ſhelter gain,</l>
+               <l>The Boughs were ſpreading, delicate the Grain.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Painters</hi> when vers'd in their ingenuous Art</l>
+               <l>Acquire their Fame from drawing each his part;</l>
+               <l>One limns the drouſy ſweetneſs of the Eyes,</l>
+               <l>Where with the Original the Copy vies:</l>
+               <l>Another finely doth the Colours ſpread,</l>
+               <l>And mixeth up the charming White and Red;</l>
+               <l>One with a jolly roundneſs plumps the Hip,</l>
+               <l>And ſwells the pouting, male-contented Lip;</l>
+               <l>Another, he in Drapery is bold,</l>
+               <l>Makes Garments with a looſe and eaſy fold:</l>
+               <l>But he is juſtly celebrated Great,</l>
+               <l>Who all the Features can with Skill compleat.</l>
+               <l>But here the Task more difficult we find,</l>
+               <l>To draw the Landskipt of ſo vaſt a Mind;</l>
+               <l>For here his Soul with juſt Grandeur doth riſe,</l>
+               <l>And there in low Humility it lies;</l>
+               <l>Emergent Notions conſtantly did ſpring,</l>
+               <l>And ſtill freſh Seeds did loaded Harveſts bring:</l>
+               <l>There you a Proſpect had with full delight,</l>
+               <l>And only Heaven did terminate your ſight;</l>
+               <l>A liquid Chryſtal there her Waters ſhows,</l>
+               <l>Juſt ſo his Eloquence like a River flows;</l>
+               <l>With a ſtrong, limpid Current it did ſmile,</l>
+               <l>Convey'd Fertility like the pregnant <hi>Nile;</hi>
+               </l>
+               <l>Nothing of Barrenneſs could e're be ſeen,</l>
+               <l>But a Succeſſion ſtill of verdant Green.</l>
+               <l>Ripe Fruit from hopeful Bloſſoms early ſprung,</l>
+               <l>To gain Experience he Travell'd young;</l>
+               <l>Lik'd theirs, but reverenc'd his Native Tongue:</l>
+               <l>Did not his Strength on Forreign Vices waſt,</l>
+               <l>Modeſt in <hi>France,</hi> in <hi>Italy</hi> was Chaſt.</l>
+               <pb n="4" facs="tcp:110339:4"/>
+               <l>Tho' now the Modiſh Traveller doth pleaſe,</l>
+               <l>If he brings home a more refin'd Diſeaſe;</l>
+               <l>Can tell the <hi>Tennis-Courts,</hi> and all the <hi>Meſles</hi>
+               </l>
+               <l>How many Leagues from <hi>Paris</hi> to <hi>Verſailles;</hi>
+               </l>
+               <l>What <hi>Point</hi>'s in Faſhion, what <hi>Amours</hi> are New,</l>
+               <l>What <hi>Marqueſs</hi> laſt to <hi>Madam</hi> prov'd untrue.</l>
+            </lg>
+            <lg>
+               <l>BOYLE learn'd their Cuſtomes, Polity &amp; Laws,</l>
+               <l>Had their Accompliſhments without their Flaws;</l>
+               <l>No Ribaldry did offend the tender Ear,</l>
+               <l>A Veſtal Virgin his Diſcourſe might hear;</l>
+               <l>Each Word he utter'd had a Grain of Salt,</l>
+               <l>And rigid <hi>Cato</hi> could not find a Fault.</l>
+               <l>As Wine ferments tumultuous in the Muſt,</l>
+               <l>This is the firſt incitement unto Luſt;</l>
+               <l>Our Eyes and Ears are the ſly <hi>Avenues</hi>
+               </l>
+               <l>Which make the Sacred Monaſtry a Stews;</l>
+               <l>Then feign'd Romances and laſcivious Plays</l>
+               <l>The Flame unto a higher pitch do raiſe:</l>
+               <l>Here Phantaſms thro a Labyrinth you purſue,</l>
+               <l>The Turns are dangerous, and falſe the Clue;</l>
+               <l>The Muſe that was but moderately Clean,</l>
+               <l>The Mask pull'd off is on the Stage Obſcene:</l>
+               <l>And now each dawbing Pencil <hi>Venus</hi> draws,</l>
+               <l>Naked ſhe Courts the Theatre's applauſe;</l>
+               <l>In ſuch luxurious ſhapes She doth entice,</l>
+               <l>Men do not dread, but are in love with Vice:</l>
+               <l>We into things forbidden quickly ruſh,</l>
+               <l>When once we've overcome the Maiden Bluſh.</l>
+            </lg>
+            <lg>
+               <l>To Revelation he his Reaſon brought,</l>
+               <l>Altho in other things he freely thought;</l>
+               <l>The miſtick Lock doth diſappoint the Key,</l>
+               <l>But where he could not open did Obey:</l>
+               <l>If buſy doubts did Sceptically riſe,</l>
+               <l>He either ſtop'd or Conquer'd the ſurpriſe:</l>
+               <l>Did each Opinion very finely ſearſe,</l>
+               <l>The Sun did all the Miſts it rais'd, diſperſe:</l>
+               <l>The Church of <hi>England</hi> chiefly did applaud,</l>
+               <l>Who to aſſert her needs no pious Fraud;</l>
+               <l>She doth not hallow wax, nor Chriſten Bells,</l>
+               <l>Nor is ſupported with falſe Miracles:</l>
+               <pb n="5" facs="tcp:110339:4"/>
+               <l>Is not ſevere with Axes, or the Rod,</l>
+               <l>Nor on a Wafer ſtamps an Infant God;</l>
+               <l>It doth not legendary Stories tell,</l>
+               <l>Lies 'cording to your Faith, and Purſe they ſell:</l>
+               <l>She doth not think that when her Members Dy,</l>
+               <l>In Culinary Embers they muſt Fry;</l>
+               <l>'Tis not ſufficient here to have the Croſs,</l>
+               <l>But there the fire muſt purify the Droſs.</l>
+               <l>So they in <hi>Egypt</hi> milk-white Eggs do take,</l>
+               <l>And make the brooding Hens their Neſts forſake;</l>
+               <l>They a more genial Warmth on them beſtow,</l>
+               <l>For Incubation is a Proceſs ſlow;</l>
+               <l>Where the ſharp Artiſt wearies out his Eyes</l>
+               <l>To make his gradual diſcoveries;</l>
+               <l>How the Artificer doth knit each joynt,</l>
+               <l>The <hi>Cicatricula</hi> and <hi>Salient</hi> Point:</l>
+               <l>But here of Living Fleſh they draw a Batch,</l>
+               <l>For they in Ovens all their Chicken Hatch;</l>
+               <l>So when the Catholick Soul releaſment begs,</l>
+               <l>Which is the Offspring of unhappy Eggs,</l>
+               <l>After the payment of her Spiritual Hoſt,</l>
+               <l>She is let looſe to go to Heaven to Rooſt.</l>
+            </lg>
+            <lg>
+               <l>He in his Cenſures could not cruel be,</l>
+               <l>To thoſe who did in Trivials diſagree;</l>
+               <l>'Tis want of tender Bowels, and our Pride,</l>
+               <l>We'd ſave our ſelves, and damn the world beſide:</l>
+               <l>Nor <hi>Guelph,</hi> nor <hi>Gibeline</hi> upon him did fall,</l>
+               <l>He like to <hi>Atticus</hi> was belov'd by all;</l>
+               <l>Tho' they in ſeveral parties did Combine,</l>
+               <l>Yet in Admiring him they all did join.</l>
+               <l>A numerous Poor ſubſiſted by his Bread,</l>
+               <l>And were with daily Diſtributions fed;</l>
+               <l>Objects of private Pity he did chooſe,</l>
+               <l>But obvious Ones in ſtreets could not refuſe;</l>
+               <l>He after thoſe did anxiouſly enquire,</l>
+               <l>Who ruin'd were by Shipwrack, or by Fire;</l>
+               <l>Or thoſe who were Conſum'd with Age and Pain,</l>
+               <l>And yet a competent Subſtance could not gain;</l>
+               <l>A ſecret Moth their Fortune undermines,</l>
+               <l>Their hopes blown up, abortive their deſigns.</l>
+               <pb n="6" facs="tcp:110339:5"/>
+               <l>He was the Comforter of modeſt grief,</l>
+               <l>He gave, and did ſolicit their Relief;</l>
+               <l>Not the leaſt Blemiſh did his Morals taint,</l>
+               <l>Liv'd a Philoſopher, and Dy'd a Saint.</l>
+               <l>The World's a Syſtem of great Villany,</l>
+               <l>He with regret did all their Vices ſee,</l>
+               <l>But from Appearances himſelf was free;</l>
+               <l>Did not Revenge under a Smile conceal,</l>
+               <l>Nor did he call extravagant Paſſion, Zeal:</l>
+               <l>He with a liberal humour would rejoice,</l>
+               <l>And yet he was Abſtemious out of choice;</l>
+               <l>But his Auſterities did not Sour his Blood,</l>
+               <l>Was very Sociable, yet ſtrictly Good.</l>
+               <l>All for Inſtruction did to him reſort,</l>
+               <l>The Learned did his Correſpondence court,</l>
+               <l>And they enjoy'd the freedome of the Port;</l>
+               <l>They carry'd rich Commodities away,</l>
+               <l>Which with great Intereſt recompenc'd their ſtay;</l>
+               <l>Attention they did not in vain conſume,</l>
+               <l>Gold did Enrich, and Spices did Perfume:</l>
+               <l>He to all Tempers did his Genius fit,</l>
+               <l>His Labour's Solid, and his Mirth was Wit;</l>
+               <l>He did digeſt the Books he did devour,</l>
+               <l>He ſpent not one unprofitable hour;</l>
+               <l>Either he as a Chymiſt did Refine,</l>
+               <l>Or read the Scriptures like a good Divine,</l>
+               <l>And ſcarce one Moment paſt without a Line:</l>
+               <l>Of Commentators he fil'd off the ruſt,</l>
+               <l>And every Tranſlation would not truſt;</l>
+               <l>He with the Surface would not be content,</l>
+               <l>But with a Plummet to the Bottome went;</l>
+               <l>His wonted Diligence he did apply,</l>
+               <l>To learn a Language that was harſh and dry;</l>
+               <l>Tho a rough Guide did lead him by the hand,</l>
+               <l>It did conduct him to the promis'd Land,</l>
+               <l>Where Nature her delicious Fruits hath ſtor'd,</l>
+               <l>A ſingle Grape a Vintage doth afford:</l>
+               <l>His generous Courteſy was always ſuch,</l>
+               <l>He thought he never could Oblige too much.</l>
+               <pb n="7" facs="tcp:110339:5"/>
+               <l>He to all Ranks did meekly condeſcend,</l>
+               <l>'Twas his Civility that made him bend;</l>
+               <l>Tho' Sickneſs without Truce a War did wage,</l>
+               <l>He ſtill prop'd up the Ruins of his Age,</l>
+               <l>And that he ſhun'd ſo long the fatal Dart,</l>
+               <l>It was his greateſt Specimen of Art;</l>
+               <l>In ſpight of Years he kept himſelf upright,</l>
+               <l>Till the Weight falling on him cruſh'd him quite.</l>
+            </lg>
+            <lg>
+               <l>He did perform what others only boaſt,</l>
+               <l>And each Experiment did refund its Coſt;</l>
+               <l>The ſhining Pillar of his Chymick Flame,</l>
+               <l>To our erroneous Minds a Guide became,</l>
+               <l>Which through the Deſart did point out our way,</l>
+               <l>And us thro' intricate Errors did convey;</l>
+               <l>
+                  <hi>Aquinas</hi> like his Title was not bright,</l>
+               <l>And <hi>Scotus</hi> was involv'd in Myſtick Night,</l>
+               <l>Both made Crepuſcular, and doubtful Light;</l>
+               <l>They hunted one another in a Wood,</l>
+               <l>Quarrel'd for that which neither underſtood;</l>
+               <l>You <hi>Paracelſus</hi> Inſolence can't endure,</l>
+               <l>He pompous was, and <hi>Helmont</hi> is obſcure;</l>
+               <l>We are with barbarous Remedies o're-run,</l>
+               <l>Eſſence of Stars, and Tincture of the Sun;</l>
+               <l>A <hi>Roſicrucian</hi> Secrets doth purſue,</l>
+               <l>He fails becauſe his ground-work is not true,</l>
+               <l>To immenſe Summs he blindly doth Aſpire,</l>
+               <l>Offers his Children to the <hi>Molock</hi> Fire;</l>
+               <l>He drowns their cries with noiſe of fancy'd Gold,</l>
+               <l>Like heaps of Uſury by the Bankers told;</l>
+               <l>And when that the phantaſtick Web is ſpun,</l>
+               <l>He finds himſelf and Family undone.</l>
+            </lg>
+            <lg>
+               <l>BOYLE's Thoughts on what was uſeful ſtill were ſpent,</l>
+               <l>Nothing that was Deſtructive did Invent;</l>
+               <l>His Days and watchful Nights he did employ,</l>
+               <l>Mankind to Benefit, and not Deſtroy:</l>
+               <l>Like to the diſmal Fryar in his Cell,</l>
+               <l>Who firſt found out that Stratagem of Hell;</l>
+               <l>When he together did Ingredients Brew,</l>
+               <l>Swift Death upon the Wings of <hi>Nitre</hi> flew;</l>
+               <pb n="8" facs="tcp:110339:6"/>
+               <l>Upon their Models Armies do advance,</l>
+               <l>And they puſh on the Victories of <hi>France;</hi>
+               </l>
+               <l>Where e're that haughty Monarch doth appear,</l>
+               <l>A Monk's his Confeſſor and Engineer;</l>
+               <l>The Rudiments in <hi>Verulam</hi> were drawn,</l>
+               <l>And then Philoſophy began to dawn;</l>
+               <l>It roſe with ſuch a bright, auſpicious Ray,</l>
+               <l>'Twas a fair hoſtage for a clearer day:</l>
+               <l>The Great St. <hi>Albans</hi> fell into diſgrace,</l>
+               <l>And ſlight Concuſſions made him loſe his Place;</l>
+               <l>But it was Royal Envy ſhot him Dead,</l>
+               <l>And this ſtruck off Unparallel'd <hi>Rawleigh</hi>'s Head:</l>
+               <l>Had <hi>Bacon</hi> to one Talent been confin'd,</l>
+               <l>A Star of the firſt Magnitude had ſhin'd;</l>
+               <l>He did neglect the Functions of his Gown,</l>
+               <l>So from the Precipice he tumbl'd down;</l>
+               <l>Whilſt he was drawing Schemes they took the Town.</l>
+               <l>Then at ſome diſtance <hi>Wilkins</hi> did ſucceed,</l>
+               <l>Our captive Reaſon he entirely Free'd;</l>
+               <l>Juſtly Reſtor'd, ſhe the Aſcendant gains,</l>
+               <l>When Barbarous Ignorance held her long in Chains:</l>
+               <l>This gave to ſeveral Factions diſcontent,</l>
+               <l>To ſee the Change of Ancient Government;</l>
+               <l>Jokes did deſcend from Father to the Son,</l>
+               <l>They in the beaten Road went jingling on;</l>
+               <l>With a grave Pace and ſolemn Look did tread,</l>
+               <l>Were with implicit Bells like horſes led;</l>
+               <l>It was the vicious Clenching of the Age,</l>
+               <l>It might divert upon <hi>Ben Johnſon</hi>'s Stage:</l>
+               <l>But <hi>Andrew</hi>'s real worth it did abate,</l>
+               <l>Tarniſh'd his ſtile, his ſenſe did deſecrate;</l>
+               <l>He great Advantage from thoſe ſtudies drew,</l>
+               <l>Which do inſtruct us how to Argue true;</l>
+               <l>He in his Temper to the World was kind,</l>
+               <l>Would them unite in Language, and in Mind;</l>
+               <l>His Projects in an higher Orb did move,</l>
+               <l>He'd fix a Commerce with the Stars above;</l>
+               <l>For by our Glaſſes what we take to be</l>
+               <l>Spots in the Lunar Diſc, are Earth and Sea:</l>
+               <pb n="9" facs="tcp:110339:6"/>
+               <l>Then we ſhould like unto <hi>Elijah</hi> fly</l>
+               <l>In Fiery Chariots through the liquid Sky;</l>
+               <l>When he upon this fancy'd Subject writ,</l>
+               <l>'Twas an exalted Eſſay of his Wit;</l>
+               <l>Agreeably he did our thoughts Amuſe,</l>
+               <l>All other Theories he reduc'd to Uſe;</l>
+               <l>Learning and Goodneſs had their proper Sphere,</l>
+               <l>Was a great Prelate, and Philoſopher.</l>
+            </lg>
+            <lg>
+               <l>In <hi>Geoponicks Evelin</hi> doth excel,</l>
+               <l>Gardens and Woods none underſtands ſo well,</l>
+               <l>Knows the minuteſt Seeds, each Plant enfolds,</l>
+               <l>And all the vaſt diverſity of Molds;</l>
+               <l>What proper Earth accomodates each Tree,</l>
+               <l>Diſtinguiſheth their Claſs and Pedigree;</l>
+               <l>
+                  <hi>Moreland</hi> doth Fountains to their <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> raiſe,</l>
+               <l>Vers'd in their Serpentine and Crooked ways;</l>
+               <l>One Water hath improv'd, the other Soil,</l>
+               <l>Fire and elaſtick Air belong to BOYLE,</l>
+               <l>His curious Engine doth pump out our Breath,</l>
+               <l>And there you ſee the Agonies of Death,</l>
+               <l>Which fearful Nature by degrees diſrobes,</l>
+               <l>For the Conveyances of Life are <hi>Lobes.</hi>
+               </l>
+               <l>To try how this Experiment doth paſs,</l>
+               <l>Shut a Domeſtick <hi>Tigre</hi> in a Glaſs;</l>
+               <l>Stop all the pervious <hi>Avenues</hi> with Clay,</l>
+               <l>Drain her almoſt unto the laſt decay,</l>
+               <l>With the ſtrong efforts, when ſhe groans and heaves,</l>
+               <l>A pungent Salt expiring Life retrieves.</l>
+               <l>He like a wiſe Interpreter did unfold</l>
+               <l>All the <hi>Arcana</hi> both of Heat and Cold;</l>
+               <l>Our Vital Flame Analogous to a Lamp,</l>
+               <l>Which Death extinguiſheth with her mortal damp;</l>
+               <l>A ſtirious piece of water did confound,</l>
+               <l>When the ſoft Weapon melted in the wound;</l>
+               <l>His vivid Colours entertain our ſight,</l>
+               <l>'Tis an Elizian Subject, Fields of Light;</l>
+               <l>
+                  <hi>Ultra-marine</hi> of <hi>Lapis Lazuli,</hi>
+               </l>
+               <l>Is a bright Rival to the Azure Sky;</l>
+               <l>None but Kings Palaces this ſtone ſhould hold,</l>
+               <l>A Purple 'tis, inlaid with ſtreaks of Gold:</l>
+               <pb n="10" facs="tcp:110339:7"/>
+               <l>Then Gems, a Subject he ſo well hath done,</l>
+               <l>Are the peculiar Favorites of the Sun;</l>
+               <l>On other things his Beams he thinly lays,</l>
+               <l>Here he's Compact, and doth condenſe his Rays:</l>
+               <l>He like an Artiſt Phyſick underſtood,</l>
+               <l>And us'd it as a more diffuſive Good;</l>
+               <l>Great pleaſure in thoſe Contemplations plac'd,</l>
+               <l>Nature thro' all her wild <hi>Meanders</hi> trac'd:</l>
+               <l>Knew for what proper uſe each place did ſerve,</l>
+               <l>Follow'd the Foot-ſteps of each winding Nerve;</l>
+               <l>He view'd the ſeat of Hypocond riack Bile,</l>
+               <l>And all the ſubtle paſſages of Chile;</l>
+               <l>He ſaw the curious Net-work of the Brain,</l>
+               <l>The <hi>Lympheducts</hi> and every <hi>Lacteal</hi> Vein.</l>
+            </lg>
+            <lg>
+               <l>He gave to Medals juſtly their eſteem,</l>
+               <l>But in thoſe ſtudies did not too much Dream;</l>
+               <l>Did not upon them lay too great a ſtreſs,</l>
+               <l>Nor doated on an Antiquated Dreſs;</l>
+               <l>If genuine they to Hiſtory give a light,</l>
+               <l>And in Chronology they ſet you right;</l>
+               <l>But often falſe do for the true ones paſs,</l>
+               <l>They cheat in Gold, in Silver and in Braſs:</l>
+               <l>In <hi>Otho</hi> and <hi>Vitellius</hi> is deceit,</l>
+               <l>And they <hi>Peſcennius Nigers</hi> counterfeit.</l>
+               <l>In Gardens he did recreate his ſenſe,</l>
+               <l>Walk'd their <hi>Parterres</hi> with the firſt Innocence;</l>
+               <l>He did not load his memory with words,</l>
+               <l>(A Miſer ſo his idle Treaſure hoards;)</l>
+               <l>Herbs he employ'd unto a nobler uſe,</l>
+               <l>He into wholeſom Med'cines ſqueez'd their juice:</l>
+               <l>Then the Exotick Plants he did ſurvey,</l>
+               <l>Which did his Curioſity defray;</l>
+               <l>For there he ſaw the melancholy Tree</l>
+               <l>Fold up its ſelf by day and cloiſter'd be;</l>
+               <l>
+                  <hi>Phoebus</hi> another <hi>Daphne</hi> hath in chace,</l>
+               <l>Can't importune her into one embrace;</l>
+               <l>But to his paler Rival ſhe doth yield,</l>
+               <l>Who when he's down uſurps the quitted field;</l>
+               <l>Her tender Spirits he doth roughly treat,</l>
+               <l>And them diſperſe with too intenſe an heat;</l>
+               <pb n="11" facs="tcp:110339:7"/>
+               <l>But the weak Moon with a more languid Ray,</l>
+               <l>Draws the Sap forth, and doth her Leaves diſplay.</l>
+            </lg>
+            <lg>
+               <l>Study he did not intermit, but change,</l>
+               <l>When he more freely had a mind to range;</l>
+               <l>Then he ran over all the Ages paſt,</l>
+               <l>Saw in what models Governments were Caſt;</l>
+               <l>By what inſenſible degrees they thrive,</l>
+               <l>And what falſe ſteps of growth doth them deprive;</l>
+               <l>For ſome are Dwarfs, and ſome Gigantick Tall,</l>
+               <l>Like to a Weather-glaſs they riſe and fall:</l>
+               <l>Of Policy he ſaw the ſinalleſt ſprings,</l>
+               <l>The change of States, viciſſitude of Kings;</l>
+               <l>Guards to the Good, bright Conſtellations are,</l>
+               <l>A Tyrant hath not one propitious Star:</l>
+               <l>He to Antiquity was very juſt,</l>
+               <l>And yet he did not load himſelf with duſt;</l>
+               <l>Thoſe to the Metals who themſelves confine,</l>
+               <l>Are tinctur'd with the Colour of the Mine;</l>
+               <l>Sometimes a <hi>Peaſe-bloom-damp</hi> puts out their light,</l>
+               <l>And ſubterranean <hi>Daemons</hi> them do fright;</l>
+               <l>Are the Sulphurean Guardians of the Ore,</l>
+               <l>Which we in currant Images adore;</l>
+               <l>We ſhould not ſtudy beyond ſuch a mark,</l>
+               <l>Leſt we too far do wander in the dark;</l>
+               <l>Like thoſe who are to gloomy <hi>Caverns</hi> ſent,</l>
+               <l>This is inflicted as a puniſhment;</l>
+               <l>They make the Priſoner from his Dungeon riſe,</l>
+               <l>A ſudden ſplendor dazleth out his Eyes,</l>
+               <l>So this rebates the keenneſs of our ſight,</l>
+               <l>When darted on by Subjects that are bright:</l>
+               <l>This Age for former Negligence atones,</l>
+               <l>With <hi>Selden</hi>'s Marbles, and with <hi>Gruter</hi>'s Stones.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Ireland</hi> is by indulgent Nature free'd</l>
+               <l>From all thoſe Creatures which do Venom breed;</l>
+               <l>And ſometimes ſhe her Natives doth produce,</l>
+               <l>Men of the meekeſt Souls, and ſofteſt Juice:</l>
+               <l>This Influence on her Favorites doth fall,</l>
+               <l>Gentle as Doves, and born without a Gall;</l>
+               <l>Candor to them is <hi>Medes</hi> and <hi>Perſians</hi> Law,</l>
+               <l>Ambition did not ſwell, nor Envy gnaw:</l>
+               <pb n="12" facs="tcp:110339:8"/>
+               <l>In BOYLE and <hi>Uſher</hi> we this temper find,</l>
+               <l>Who were the moſt Obliging of Mankind;</l>
+               <l>He practic'd every Doctrine that he taught,</l>
+               <l>And with all ſtores of Learning he was fraught;</l>
+               <l>To the ſublimeſt pitch of Knowledge flew,</l>
+               <l>Nothing to him was hid, no Book was new:</l>
+               <l>Him as a Prodigy let his Country tell,</l>
+               <l>None ever Writ, or ever Liv'd ſo well:</l>
+               <l>Then as the credit of our Northern Air,</l>
+               <l>BOYLE came to make a Celebrated pair;</l>
+               <l>Learning is Ship-wrack'd on the <hi>Spaniſh</hi> Coaſt,</l>
+               <l>And they have no Philoſophers to boaſt:</l>
+               <l>And Age hath ſlip'd, and not one Art hath gain'd,</l>
+               <l>
+                  <hi>Cervantes</hi> long ago their humor drain'd;</l>
+               <l>In <hi>Italy</hi> then <hi>Galileo</hi> writ,</l>
+               <l>
+                  <hi>Malpigius</hi> too, that moſt portentous Wit;</l>
+               <l>He to the World that Secret did impart,</l>
+               <l>That Trees have Lungs, a Midriff and an Heart:</l>
+               <l>The other they did in a Priſon lay,</l>
+               <l>Becauſe to Heaven he found another way.</l>
+               <l>Ungrateful <hi>Athens</hi> thus her Sons did treat,</l>
+               <l>When they with too much Vertue were grown great;</l>
+               <l>And thus rapacious hands on him did ſeiſe,</l>
+               <l>Who firſt aſſerted the <hi>Antipodes:</hi>
+               </l>
+               <l>
+                  <hi>France</hi> hath a double ſhare of Learned Men,</l>
+               <l>
+                  <hi>Salmaſius</hi> with his ſmooth and eaſy Pen;</l>
+               <l>
+                  <hi>Cartes</hi> for ſubtilty the Prize doth win,</l>
+               <l>He all his Bowels out in Silk doth ſpin,</l>
+               <l>The fineneſs of his Notions makes them thin:</l>
+               <l>
+                  <hi>Gaſſendus</hi> doth deſerve the ſecond ſtall,</l>
+               <l>But Mufick made <hi>Merſennus</hi> Whimſical;</l>
+               <l>
+                  <hi>Poiret</hi> by all the World is juſtly hiſt,</l>
+               <l>A dull <hi>Enthuſiaſt,</hi> a crack'd <hi>Platoniſt;</hi>
+               </l>
+               <l>
+                  <hi>Malebranch</hi> muſt for a Nervous Writer ſtand,</l>
+               <l>Then the reſerves, <hi>Du Hamel</hi> and <hi>Le Grand;</hi>
+               </l>
+               <l>But the triumphant Warriers of the Liſts,</l>
+               <l>Are the Ingenious, ſolid <hi>Janſeniſts;</hi>
+               </l>
+               <l>Their comely Morals a <hi>Decorum</hi> keep,</l>
+               <l>They taught us how to think, and how to ſpeak.</l>
+               <pb n="13" facs="tcp:110339:8"/>
+               <l>And now they're rendezvous'd, our Champion call,</l>
+               <l>Him ſingle we'll oppoſe unto them all;</l>
+               <l>We all their Competitions will aſſoil,</l>
+               <l>With the belov'd, the honor'd Name of BOYLE:</l>
+               <l>He in Philology was profoundly Vers'd,</l>
+               <l>Poets and Orators fluently rehears'd;</l>
+               <l>He never them ſuperfluouſly did quote,</l>
+               <l>But a new peice of Knowledge to promote:</l>
+               <l>Authors that were Obſcene he did deteſt,</l>
+               <l>He did ſelect the cleaneſt and the beſt;</l>
+               <l>Learning into the Deſert did withdraw,</l>
+               <l>War baniſh'd that as it doth ſilence Law:</l>
+               <l>Like <hi>Arethuſa</hi> it went under ground,</l>
+               <l>After ſuch lengths of time it did rebound,</l>
+               <l>Did with freſh ſtreams upon the ſurface ſpread,</l>
+               <l>The <hi>Amphisbaena</hi> had a double head,</l>
+               <l>Truth for protection to a cloiſter flies,</l>
+               <l>And there by Monks corrupted was with Lyes,</l>
+               <l>The Sanctuary worſe than life at large,</l>
+               <l>For here the Guardian did debauch his charge;</l>
+               <l>The clouds were ſcatter'd and the day began,</l>
+               <l>In refin'd <hi>Petrarch</hi> and <hi>Politian.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>BOYLE Nature in her niceſt Movements ſaw,</l>
+               <l>With ſympathiſing Atomes ſhe doth draw,</l>
+               <l>Her Load-ſtone Iron, ſhining Amber Straw:</l>
+               <l>This viſcous Gem the Sea on <hi>Pruſſia</hi> throws,</l>
+               <l>And falling little Creepers doth encloſe;</l>
+               <l>The provident <hi>Ant</hi> was once a Captive made,</l>
+               <l>Surpris'd as it was wandring in the ſhade;</l>
+               <l>The Tree exuded and the little Fop</l>
+               <l>Was ſtrait impriſon'd in a yellow drop;</l>
+               <l>So he that living was obſcurely hid,</l>
+               <l>Now lay entomb'd within a Pyramid:</l>
+               <l>But BOYLE a wondrous ſtory doth relate,</l>
+               <l>For all that's Curious he's deſign'd by Fate;</l>
+               <l>That in a Sanguine Ladies bluſhing Face,</l>
+               <l>(Nature her Wonders there doth always place)</l>
+               <l>Blood was to ſuch a fine conſiſtence wrought,</l>
+               <l>In the Balſamick Net her Locks were caught;</l>
+               <pb n="14" facs="tcp:110339:9"/>
+               <l>The Curls are faſten'd to the Cheeks which glow,</l>
+               <l>The women thought that ſhe had gum'd too low;</l>
+               <l>She did not dawb with falſe Complection thick,</l>
+               <l>For then the hair might in the mortar ſtick;</l>
+               <l>Native it was, and pure <hi>Vermilion</hi> all,</l>
+               <l>And the attraction was <hi>Electrical:</hi>
+               </l>
+               <l>Now ſet this mirror with ſuch luſtre deckt,</l>
+               <l>That there each Noble-man may his face reflect;</l>
+               <l>Make it the Topick of his emulous ſtrife,</l>
+               <l>How he may imitate ſuch a ſpotleſs life:</l>
+               <l>Honor is bought, and great Attendance hir'd,</l>
+               <l>But it is Learning only that's acquir'd;</l>
+               <l>Theſe like dead weights uneaſily are born,</l>
+               <l>They load, but only Knowledg doth adorn;</l>
+               <l>'Tis our prerogative above the Brutes,</l>
+               <l>There is a ſort of glimmering ſenſe in Roots;</l>
+               <l>Graces of Reaſon you in Beaſts may mark,</l>
+               <l>Of a faint Jewel an imperfect ſpark;</l>
+               <l>Outdo the Fox in ſtratagem if you can,</l>
+               <l>Grave as a <hi>Viſier</hi> in a full <hi>Divan:</hi>
+               </l>
+               <l>There was a brave reſentment in an Horſe,</l>
+               <l>And the <hi>Braſilian Parrot</hi> can diſcourſe.</l>
+               <l>He in a barren Soil his Seeds did plant,</l>
+               <l>And ſuccor'd Ignorance, the greateſt want;</l>
+               <l>All paſſages of Counſel Pride doth ſhut,</l>
+               <l>But <hi>Cataracts</hi> may be Couch'd, and <hi>Films</hi> are Cut;</l>
+               <l>The rays of Viſion that entirely ſtops,</l>
+               <l>For wiſe Inſtructors do deſpair of Fops;</l>
+               <l>Thoſe are Enlighten'd after pains endur'd,</l>
+               <l>But the Conceited Wretch can ne're be Cur'd;</l>
+               <l>Envy by ravenous <hi>Wolves,</hi> and <hi>Harpies</hi> drawn,</l>
+               <l>The Foam of <hi>Cerberus,</hi> of <hi>Styx</hi> the Spawn;</l>
+               <l>Who rails at Mountains living in the Vale,</l>
+               <l>And others Sanguine looks do make her Pale;</l>
+               <l>So ſtrong a mind could not her Captive make,</l>
+               <l>Could not inſinuate with the ſmalleſt Snake;</l>
+               <l>And when of ſuch a Prize the Fury miſt,</l>
+               <l>Did grind her Teeth, and all her Serpents hiſt:</l>
+               <l>No Age with Wonders teeming did bring forth</l>
+               <l>Any ſuperior to him in Worth,</l>
+               <pb n="15" facs="tcp:110339:9"/>
+               <l>He with a Gaiety of Temper charm'd,</l>
+               <l>The Froward of their Anger he diſarm'd;</l>
+               <l>He wonder'd why ſo furious they became,</l>
+               <l>For his own Breaſt did never feel the Flame;</l>
+               <l>He all the Battering Rams with ſoftneſs broke,</l>
+               <l>His Patience, not his Sickneſs did provoke;</l>
+               <l>Repeated ſhocks of Pain did make him faint,</l>
+               <l>But all could not extort the leaſt Complaint:</l>
+               <l>His Mind inflexible did in vain attack,</l>
+               <l>Walk'd in the Furnace, ſung upon the Rack;</l>
+               <l>Tho Tortur'd yet could ſtill reſolve a Doubt,</l>
+               <l>Reaſon'd like <hi>Poſſidonius</hi> with the Gout.</l>
+               <l>And now he's mix'd with the Angelick Race,</l>
+               <l>Only of Happineſs hath chang'd the place;</l>
+               <l>For whilſt below he ſtill enjoy'd a Calm,</l>
+               <l>Now doth embrace the Tree which drop'd the Balm:</l>
+               <l>His Body's in a richer Mantle clad,</l>
+               <l>But nothing to his righteous Soul can add;</l>
+               <l>
+                  <hi>Rome</hi> chiefly did that Purple Veil extol,</l>
+               <l>Which deck'd <hi>Jove</hi>'s Temple in the Capitol;</l>
+               <l>Did the <hi>Plebeian</hi> Race of Light out-ſhine,</l>
+               <l>Of that the ſtrong Reflections were Divine:</l>
+               <l>So all things were Eclips'd by mighty BOYLE,</l>
+               <l>The brighteſt Wits were unto his a Foil.</l>
+            </lg>
+            <lg>
+               <l>Marriage to be a Lottery he thought,</l>
+               <l>In which your happineſs is too dearly bought;</l>
+               <l>The venture in this Game of chance doth riſe,</l>
+               <l>Above the real value of the Prize:</l>
+               <l>He of decaying Beauty was not fond,</l>
+               <l>But Friendſhip was his firm and laſting Bond;</l>
+               <l>Without allay this is a Virgin-Ore,</l>
+               <l>And his Friend was his deareſt <hi>Lindamor;</hi>
+               </l>
+               <l>The Tie is now Conſummated above,</l>
+               <l>Where he enjoys his own <hi>Seraphick Love;</hi>
+               </l>
+               <l>Death from the Body did his Soul releaſe,</l>
+               <l>The ſeat of each pragmatical Diſeaſe;</l>
+               <l>A wound inflicted deeply turns the Brain,</l>
+               <l>Then you are twiſted with <hi>Arthritick</hi> pain;</l>
+               <l>With Cold you ſhiver, and are ſcorch'd with Heat,</l>
+               <l>The Gout conſtrains the hands, and binds the feet;</l>
+               <pb n="16" facs="tcp:110339:10"/>
+               <l>You with the Palſy are but juſt alive,</l>
+               <l>Half of himſelf the Patient doth ſurvive:</l>
+               <l>Then the whole Syſtem with the Scurvey jarrs,</l>
+               <l>You're drown'd in Dropſies, ſtrangled w<hi rend="sup">th</hi> Catarrs;</l>
+               <l>An Apoplexy doth attack the Head,</l>
+               <l>
+                  <hi>He Bow'd, &amp; where he Bow'd, he fell down Dead:</hi>
+               </l>
+               <l>Each trivial accident doth Death provoke,</l>
+               <l>A Grape-ſtone did the ſweet <hi>Anacreon</hi> Choke;</l>
+               <l>From griping Talons once an Oyſter fell</l>
+               <l>On <hi>AEſchylus,</hi> and broke a finer Shell:</l>
+               <l>The Stone doth for your utmoſt Patience call,</l>
+               <l>It is an hard, concreted Mineral;</l>
+               <l>The vertue of the Magnet it will feel,</l>
+               <l>Out of it draws ſmall Particles of Steel:</l>
+               <l>With legion of Torture it is full,</l>
+               <l>Beyond the Rack, or <hi>Phalaris</hi>'s Bull;</l>
+               <l>From all things that ocour we Death may fear,</l>
+               <l>Judge right and we are Ship-wrack'd everywhere.</l>
+            </lg>
+            <lg>
+               <l>Come in the Vault the noble Body lay,</l>
+               <l>The mournful Relicks of his precious Clay;</l>
+               <l>We need not here condoling Women hire,</l>
+               <l>With real Grief we're ready to expire:</l>
+               <l>Let Clouds of Incenſe mount unto the Sky,</l>
+               <l>Throw of, and let the Imperial Eagle fly,</l>
+               <l>Which in the Clefts of lofty Rocks is caught,</l>
+               <l>The lively Image of his towring Thought:</l>
+               <l>BOYLE was as Generous, tho not ſo Fierce,</l>
+               <l>His Judgment like the others Eyes did Pierce;</l>
+               <l>On Objects worthy of his Mind did fix,</l>
+               <l>His Notions won't with any others mix:</l>
+               <l>Let him within thoſe hallow'd Entrails reſt,</l>
+               <l>With a more laſting ſolitude now Bleſt,</l>
+               <l>Till the World labours with a ſecond Birth,</l>
+               <l>Whirl-winds ſhall ſhake the Center of the Earth;</l>
+               <l>The Globe upon uncertain Hinges roles,</l>
+               <l>And one Convulſive Pang ſhall join the Poles;</l>
+               <l>Then the Arch-Angels laſt but dreadful ſound,</l>
+               <l>Shall wake the Nations ſleeping under Ground.</l>
+               <l>His Character's above my puny ſtrength,</l>
+               <l>Let a <hi>Vandike</hi> his Picture draw at length:</l>
+               <pb n="17" facs="tcp:110339:10"/>
+               <l>For him the richeſt Colours are too faint,</l>
+               <l>
+                  <hi>Phidias</hi> ſhould Carve him, and <hi>Apelles</hi> Paint;</l>
+               <l>A Volume his <hi>Encomium</hi> ſhould reſound,</l>
+               <l>A Poem, ſuch as mine's, a narrow Bound:</l>
+               <l>And here your Genius you hold in with Pain,</l>
+               <l>'Tis the moſt irkſome Province to contain.</l>
+               <l>Devouring Time ſhall not his Statue waſt,</l>
+               <l>But of his Wit the Monuments ſhall out-laſt</l>
+               <l>
+                  <hi>Duilius</hi> Pillar, and <hi>Seleucus</hi> League,</l>
+               <l>'Twas honeſt then but now it is intreague:</l>
+               <l>To his reſearch all Secrets lay unbar'd,</l>
+               <l>And nothing for his Wiſdom was too hard;</l>
+               <l>Underſtood Men, and every Science knew,</l>
+               <l>Was to the Practice of each Vertue True.</l>
+            </lg>
+            <lg>
+               <l>And now I've finiſh'd this unwelcome Theme,</l>
+               <l>Of Grief I might indulge a private Stream,</l>
+               <l>For <hi>Thyrſis</hi> and <hi>Damaetas</hi> both are Dead,</l>
+               <l>And I am left behind a lump of Lead,</l>
+               <l>My Fate depends upon your ſingle Thread;</l>
+               <l>Therefore with Care pray cultivate your health,</l>
+               <l>For in your Cargo doth conſiſt my wealth;</l>
+               <l>I wiſh your Conſtitution ſtill ſerene,</l>
+               <l>Not a diſcolour'd Feature may be ſeen:</l>
+               <l>Bodies are follow'd by obſequious ſhades,</l>
+               <l>When Sickneſs makes you droop my Pleaſure fades;</l>
+               <l>I feel the previous ſymptoms of your Urn,</l>
+               <l>When the leaſt Feaver warms you, I muſt burn;</l>
+               <l>And when <hi>Anomalous</hi> Cold doth make you quake,</l>
+               <l>If in the torrid Zone, yet I muſt ſhake.</l>
+               <l>That which did kindle ſhall put out our light,</l>
+               <l>Our Needles the ſame Magnet did excite:</l>
+               <l>A Circle terminates where it firſt begins,</l>
+               <l>We'll dy like your <hi>Hippocrates</hi> his Twins;</l>
+               <l>As we in Life, in Death we'll be the ſame,</l>
+               <l>Our Piles ſhall make one Pyramid of Flame.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:110339:11" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
